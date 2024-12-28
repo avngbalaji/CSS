@@ -1,0 +1,36 @@
+body{
+    background: teal;
+    background-image: url(dog.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: top right;
+    height: 1800px;
+    width: 800px;
+    background-attachment: scroll;
+    background-origin: border-box;
+}
+
+.first{
+    height: 400px;
+    width: 600px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+    background: blue url(logo.jpg) no-repeat;
+    background-size: 200px;
+    background-position: bottom right;
+}
+
+.second{
+    width: 800px;
+    height: 400px;
+    background-image: url(dog.jpg);
+    background-repeat: no-repeat;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
