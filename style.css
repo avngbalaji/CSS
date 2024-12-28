@@ -22,3 +22,14 @@ h1{
     top: 100px;
     left: 100px;
 }
+
+/* Font Properties */
+
+p{
+    font-family: "Poppins", serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 35px;
+    color: gray;
+}
