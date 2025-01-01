@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text properties</title>
+    <title>Text, list properties</title>
     <style>
         h1{
             letter-spacing: 2px;
@@ -15,10 +15,33 @@
             text-indent: 50px;
             text-align: justify;
         }
+
+        ul li{
+            list-style-type: none;
+        }
+        ul li::before{
+            content: '';
+            display: inline-block;
+            margin-right: 10px;
+            height: 10px;
+            width: 10px;
+            background-image: url(button.png);
+            background-size: cover;
+        }
     </style>
 </head>
 <body>
+    <!-- list properties -->
     <h1>Lorem ipsum dolor sit.</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, eligendi. Commodi aliquid omnis enim tempore error incidunt debitis temporibus alias consequuntur nobis voluptas illo, ea dicta tenetur cupiditate nostrum sapiente soluta excepturi dolor atque inventore est provident porro. Error nulla voluptates harum expedita ullam quaerat tenetur? Perspiciatis optio a soluta!</p>
+
+    <!-- list properties -->
+     <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Guava</li>
+     </ul>
 </body>
 </html>
