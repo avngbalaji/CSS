@@ -1,5 +1,12 @@
-*{
-    height: 100%;
+#navbar{
+    height: 100px;
     width: 100%;
-    box-sizing: border-box;
+    background-color: red;
+
+    color: white;
+    text-align: center;
+    font-size: 90px;
+
+    position: sticky;
+    top: 0;
 }
