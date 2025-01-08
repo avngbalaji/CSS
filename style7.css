@@ -1,5 +1,7 @@
-*{
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
+.top{
+    height: 50px;
+    width: 50px;
+    background: red;
+    position: sticky;
+    bottom: 0;
 }
